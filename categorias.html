@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        /* se centra la barra de menu*/
+        .menu {
+            display: flex;
+            justify-content: center;
+        }
+        .menu li{
+            /* se pone horizontal el menu*/
+            display: inline-block;
+            margin: auto;
+        }
+        .col{
+            width: 500px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: justify;
+            padding: 30px;
+        }
+        .col2{
+            width: 500px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: justify;
+            padding: 30px;
+        }
+
+        .row{
+            text-align: center;
+            
+        }
+        .footer h2{
+            display: inline-block;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        .colum{
+            display: flex;
+            text-align: justify;
+            float: left;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+    }
+</style>
+<body>
+    <div class="container" >
+        <div class="header">
+            <img src="image/Libreria 1.jpeg">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="categorias.html">Categorías</a></li>
+                <li><a href="#">Más vendidos</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Facturación</a></li>
+                <li><a href="#">Sucursales</a></li>
+            </ul>  
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Niños</h2>
+                <img src="image/Libreria patito.jpg" width="250px" height="150px">
+            </div>
+            <div class="col">
+                <h2>Juvenil</h2>
+                <img src="" alt="">
+                <p>Libreria Patito, destaca a simple vista por su cálido y acogedor ambiente, que se vuelve irresistible 
+                    para lectores asiduos y casuales. Esta peculiar librería cuenta con un pequeño hogar, una cafetería, 
+                    un salón para los más pequeños e incluso con un tren a escala que recorre el local, 
+                    aumentando la sensación de magia que lo caracteriza.</p>
+            </div>
+            <div class="col2">
+                <h2>Ciencia ficción</h2>
+                <img src="image/Entrada libreria.jpeg" alt="">
+            </div>
+        </div>
+        <div class="row">
+        <div class="col">
+            <h2>Novelas</h2>
+            <img src="" alt="">
+            <p>lorem</p>
+        </div>
+        <div class="col">
+            <h2>Cuento</h2>
+            <img src="" alt="">
+            <p>lorem</p>
+        </div>
+        <div class="col">
+            <h2>Cómic</h2>
+            <img src="" alt="">
+            <p>lorem</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="colum">
+            <h2>Teléfono de atención al cliente&emsp;&emsp;<br>5556581111</h2>
+            <h2>Copyright&emsp;&emsp;<br><img src="image/copyright.jpg" width="50px" height="35px" </h2>
+            <h2>redes sociales<br> <img src="image/redes.webp" width="50px" height="35px" </h2>
+
+        </div>
+    </div>
+</body>
+</html>
